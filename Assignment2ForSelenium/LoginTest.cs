@@ -28,7 +28,7 @@ namespace Assignment2_Selenium
             funcs.Click("//button[@type='submit']");
 
             Assert.That(driver.Url.Contains("dashboard"), Is.True, "System is unable to logged in.");
-            Logout();//click on logout button for executing next case
+            Logout();
         }
 
         [Test]

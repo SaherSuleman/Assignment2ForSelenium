@@ -7,9 +7,9 @@ namespace Assignment2_Selenium
         static void Main(string[] args)
         {
             var loginTest = new LoginTest();
-            loginTest.Setup(); // Fixed: Use the instance 'loginTest' to call the non-static method
-            loginTest.ValidLoginTest(); // Fixed: Use the instance 'loginTest' to call the non-static method
-            //loginTest.InvalidLoginTest();
+            loginTest.Setup(); 
+            loginTest.ValidLoginTest(); 
+            loginTest.InvalidLoginTest();
 
             var EmployeeTest = new EmployeeTests();
             EmployeeTest.Setup();
